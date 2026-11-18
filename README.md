@@ -27,6 +27,10 @@ The values above are the ones declared in
 `src/usr/share/argvus/themes/catppuccin-latte/theme.toml`, the manifest that the
 desktop reads. The manifest is the source of truth; this page describes it.
 
+The desktop uses the [official Catppuccin Latte palette](https://catppuccin.com/palette/?flavor=latte). The terminal takes its ANSI colors from the [official Kitty port](https://github.com/catppuccin/kitty/blob/main/themes/latte.conf), with ANSI blue following the desktop highlight.
+
+The wallpaper is an abstract latte-art rosette in the Latte palette, generated with ImageGen and encoded as JPEG XL.
+
 ## Installing
 
 The package depends on `argvus` and `argvus-appearance`, so pacman installs them with it.
@@ -36,7 +40,7 @@ sudo pacman -S argvus-theme-catppuccin-latte
 ```
 
 Select the theme in the Control Center (Appearance > Themes), or run
-`argvus theme-switch catppuccin-latte`.
+`argvus theme apply catppuccin-latte`.
 
 ## Files
 
